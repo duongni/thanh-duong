@@ -1,38 +1,69 @@
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+}
 .App {
   text-align: center;
+  max-width: 600px;
+  height: 1005px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  font-family: "Trenda", sans-serif;
+  padding-top: 60px;
+}
+.headshot {
+  position: relative;
+  max-width: 400px;
+  margin-top: 60px;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: 1px solid #4933d9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-size: 24px;
+  line-height: 32px;
   color: white;
+  margin-bottom: 0;
 }
-
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: white;
+  margin-top: 0;
 }
+.btn {
+  width: 400px;
+  background: #4933d9;
+  border: 1px solid #4933d9;
+  border-radius: 40px;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+}
+.contact {
+  background: #28d76e;
+  border: 1px solid #28d76e;
+  margin-top: 40px;
+}
+.video {
+  max-width: 300px;
+  aspect-ratio: 16/9;
+}
+.who-we-are {
+  color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid #4933d9;
+  border-radius: 40px;
 }
