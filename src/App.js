@@ -27,6 +27,9 @@ function App() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+          <button type="button" class="btn btn-primary more">
+            Explore More
+          </button>
         </div>
 
         <button type="button" class="btn btn-primary contact">
